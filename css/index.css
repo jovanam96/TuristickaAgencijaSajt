@@ -1,0 +1,95 @@
+.home-center{
+    text-align:center;
+}
+
+.logo-img{
+    width: 8%;
+    height: 90%;
+}
+.header{
+    background-image: url("../img/travel.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    
+}
+.header-overlay{
+    background-color: rgba(40, 31, 31, 0.4);
+}
+
+
+
+
+.head-container{
+    padding-bottom: 29%;
+    padding-top: 3%;
+}
+
+.logo-img {
+  margin-bottom: 0px;
+    
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5%;
+}
+
+
+p {
+    padding-top: 13%;
+    font-style: italic;
+    font-size:170%;
+    text-shadow: 2px 2px #000;
+    line-height: 1.2;
+}
+* {
+    box-sizing: border-box;
+    font-family: Raleway, 'Arial';
+    color: white;
+}
+.menu-img {
+    text-align: center;
+}
+.label-meni{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color: black;
+}
+
+
+footer{
+    box-shadow: 0 0 3px 5px rgba(0,0,0,.15);    
+    background-color: #4682B4;
+
+}
+
+div.left-col{
+    text-align: left;
+}
+div.right-col{
+    text-align: right;
+}
+.footer-para{
+    margin: 0;
+    font-size: 1.5rem;
+    font-style: normal;
+    color: white;
+    padding: 60px 0 40px 0;
+}
+html {
+    overflow-x: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+} 
+
+li {
+  display: inline;
+}

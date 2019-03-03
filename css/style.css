@@ -1,0 +1,157 @@
+
+@font-face {
+	font-family: 'Futura LT';
+	src: url("../fonts/Futura.woff");
+}
+
+@font-face {
+	font-family: 'Futura LT Bold';
+	src: url("../fonts/FuturaLT-Bold.woff");
+}
+
+html,
+body {
+	height: 100%;
+	font-family: 'Futura LT', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #1b1a1a;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 18px;
+	color: #7e7e7e;
+	line-height: 1.8;
+}
+
+
+.header_logo { 
+	width: 80px;
+	height: 80px;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.header-section {
+	background: #4682B4;
+	padding: 0 15px;
+	border-bottom: 2px solid 	#004380;
+}
+
+.header-warp {
+	max-width: 1613px;
+	margin: 0 auto;
+}
+
+.site-logo {
+	display: inline-block;
+}
+
+.nav-switch {
+	display: none;
+}
+
+.main-menu {
+	display: inline-block;
+	list-style: none;
+	padding-left: 125px;
+}
+
+.main-menu li {
+	display: inline;
+}
+
+.main-menu li a {
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	padding: 53px 24px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.main-menu li a:hover {
+	color: 	#004380;
+}
+
+.main-menu li.active a {
+	background: 	#004380;
+}
+
+.main-menu li.active a:hover {
+	color: #fff;
+}
+
+.header-right {
+	float: right;
+	padding-top: 37px;
+}
+
+.header-right .site-btn {
+	margin-left: 10px;
+}
+
+
+.footer-section {
+	margin-top: 100px;
+	float: left;
+}
+
+ table.rezervacijeTabela tr.selected {
+    background-color: #e92929 ;
+    color:#fff;
+    vertical-align: middle;
+    padding: 1.5em;
+}
